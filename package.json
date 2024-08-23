@@ -1,0 +1,42 @@
+{
+    "name": "audiogram.js",
+    "version": "0.0.1",
+    "description": "Display audiometric test results via React component",
+    "main": "index.js",
+    "scripts": {
+        "start": "webpack-dev-server --mode development --hot",
+        "test": "jest --config jest.config.json"
+    },
+    "author": "Matt Hollis, AuD",
+    "license": "MIT",
+    "dependencies": {
+        "@babel/core": "^7.3.3",
+        "@babel/plugin-proposal-object-rest-spread": "^7.3.2",
+        "@babel/preset-env": "^7.3.1",
+        "@babel/preset-react": "^7.0.0",
+        "@vx/axis": "^0.0.184",
+        "@vx/glyph": "^0.0.183",
+        "@vx/grid": "^0.0.184",
+        "@vx/group": "^0.0.183",
+        "@vx/scale": "^0.0.182",
+        "babel-loader": "^8.0.5",
+        "classnames": "^2.2.6",
+        "css-loader": "^2.1.0",
+        "d3-shape": "^1.3.4",
+        "dev-server": "^0.1.0",
+        "html-webpack-plugin": "^3.2.0",
+        "react": "^16.8.3",
+        "react-dom": "^16.8.3",
+        "react-sizeme": "^2.5.2",
+        "react-use-dimensions": "^1.0.0",
+        "style-loader": "^0.23.1",
+        "webpack": "^4.29.5",
+        "webpack-cli": "^3.2.3",
+        "webpack-dev-server": "^3.2.1"
+    },
+    "devDependencies": {
+        "enzyme": "^3.9.0",
+        "enzyme-adapter-react-16": "^1.10.0",
+        "jest": "^24.1.0"
+    }
+}
